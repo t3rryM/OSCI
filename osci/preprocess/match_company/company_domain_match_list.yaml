@@ -1,3 +1,9 @@
+- company: 10up
+  domains:
+    - 10up.com
+    - get10up.com
+  industry: Technology
+  regex:
 - company: 4teamwork
   domains:
     - 4teamwork.ch
@@ -9,6 +15,10 @@
   industry: Technology
   regex:
     - ^.*\.5minds\.de$
+- company: ALL Circuits
+  domains:
+    - allcircuits.com
+  industry: Professional Services
 - company: AMD
   domains:
     - amd.com
@@ -473,6 +483,11 @@
     - datadoghq.com
   industry: Technology
   regex:
+- company: DB Schenker
+  domains:
+    - dbschenker.com
+  industry: Travel & Transport
+  regex:
 - company: Decred
   domains:
     - decred.org
@@ -515,6 +530,11 @@
   industry: Technology
   regex:
     - ^docker\..*$
+- company: DoliCloud
+  domains:
+    - dolicloud.com
+  industry: Technology
+  regex:
 - company: Dynatrace
   domains:
     - dynatrace.com
@@ -626,10 +646,12 @@
   domains:
     - fb.com
     - facebook.com
+    - meta.com
   industry: Technology
   regex:
     - ^.*\.fb\.com$
     - ^.*\.facebook\.com$
+    - ^.*\.meta\.com$
 - company: Financial Times
   domains:
     - ft.com
@@ -1353,6 +1375,12 @@
     - qt.io
   industry: Technology
   regex:
+- company: Qualcomm Innovation Center, Inc.
+  domains:
+    - quicinc.com
+    - quic.qualcomm.com
+  industry: Technology
+  regex:
 - company: QualityKiosk
   domains:
     - qualitykiosk.com
@@ -1686,6 +1714,12 @@
     - twitter.com
   industry: Technology
   regex:
+- company: TYPO3
+  domains:
+    - typo3.com
+    - typo3.org
+  industry: Technology
+  regex:
 - company: Tyro
   domains:
     - tyro.com
@@ -1913,6 +1947,7 @@
   domains:
     - farfetch.com
   regex:
+  industry: Retail & Hospitality
 - company: Infosys
   domains:
     - infosys.com
@@ -1950,8 +1985,19 @@
   regex:
     - ^.*\.spectrocloud\.com$
 - company: Databricks
-	domains:
-	  - databricks.com
-	regex:
-	  - ^.*\.databricks\.com$
+  domains:
+    - databricks.com
+  regex:
+    - ^.*\.databricks\.com$
   industry: Technology
+- company: OVHCloud
+  domains:
+    - ovhcloud.com
+    - ovh.com
+  regex:
+    - ^.*\.ovh\.com$
+  industry: Technology
+- company: Mercedes-Benz Group AG
+  domains:
+    - mercedes-benz.com
+  industry: Automotive
